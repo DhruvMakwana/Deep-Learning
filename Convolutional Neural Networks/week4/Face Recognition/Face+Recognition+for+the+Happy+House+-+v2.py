@@ -169,6 +169,8 @@ print("Total Params:", FRmodel.count_params())
 
 # GRADED FUNCTION: triplet_loss
 
+# we can also use contrastive loss here for better similarity
+
 def triplet_loss(y_true, y_pred, alpha = 0.2):
     """
     Implementation of the triplet loss as defined by formula (3)
